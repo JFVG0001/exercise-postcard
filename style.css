@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #161616;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Delius', cursive;
+}
+
+.postcard {
+  width: 524px;
+  background-color: #ffffff;
+  padding: 30px 35px 45px 35px;
+}
+
+.postcard-body {
+  display: flex;
+  gap: 40px;
+}
+
+.left {
+  flex: 1;
+}
+
+.left h1 {
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+
+.left p {
+  font-size: 17px;
+  line-height: 1.35;
+  margin-bottom: 20px;
+}
+
+.right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.logo {
+  width: 68px;
+  margin-bottom: 25px;
+}
+
+.right input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #444444;
+  outline: none;
+  padding: 6px 2px;
+  margin-bottom: 12px;
+  font-family: 'Delius', cursive;
+  font-size: 17px;
+  color: #333333;
+  background: transparent;
+}
+
+.right input::placeholder {
+  color: #8a8a8a;
+}
+
+.postcard button {
+  display: block;
+  margin: 25px auto 0 auto;
+  padding: 5px 12px;
+  font-family: 'Delius', cursive;
+  font-size: 17px;
+  color: #222222;
+  background-color: #d6d6d6;
+  border: 2px outset #f0f0f0;
+  cursor: pointer;
+}
+
+.postcard button:active {
+  border-style: inset;
+}
