@@ -4,6 +4,8 @@
 .learn/.session
 .learn/dist
 .learn/reports
+.learn/sidebar.json
+.learn/telemetry.json
 app.tar.gz
 config.json
 vscode_queue.json
